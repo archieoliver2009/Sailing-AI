@@ -29,7 +29,7 @@ class Vector2D:
         return math.sqrt(self.x**2 + self.y**2)
 
 #Normalisation
-    def normalize(self):
+    def normalise(self):
         mag = self.magnitude()
         if mag == 0:
             return Vector2D(0.0, 0.0)
