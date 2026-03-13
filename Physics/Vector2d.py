@@ -65,8 +65,3 @@ class Vector2D:
         return Vector2D(math.cos(angle_radians), math.sin(angle_radians))
 
 
-
-
-
-
-
